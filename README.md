@@ -9,6 +9,7 @@ This will be the code that the machine will execute (as root) as soon as it come
 
 ##Initialization.sh
 Install nginx and modify the files and virtual host needed to configure a site with 40 html files.
+To access the pages: curl api.localhost
 
 ##CreateBastion.sh
 This is the bash script for launching a bastion instance. It will need later to be manually configured for regulate the access through itself:

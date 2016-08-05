@@ -60,7 +60,7 @@ echo "server {
         
         root /usr/share/nginx/html/api;
         index 1.html;
-        # Make site accessible from http://localhost/
+        # Make site accessible from http://api.localhost/
         server_name api.localhost;
 }" > /etc/nginx/sites-available/virtualHost.conf
 	ln -s /etc/nginx/sites-available/virtualHost.conf /etc/nginx/sites-enabled/virtualHost.conf
